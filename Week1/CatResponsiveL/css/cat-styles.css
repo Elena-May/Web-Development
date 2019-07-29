@@ -1,0 +1,269 @@
+/* color pallete: https://color.adobe.com/For-animation-color-theme-8144301/ */
+
+/* base fonts */
+
+html,
+body {
+  color: #2C858D;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 275%;
+}
+
+h3 {
+  font-size: 250%;
+}
+
+h4 {
+  font-size: 225%;
+}
+
+h5 {
+  font-size: 200%;
+}
+
+h6 {
+  font-size: 175%;
+}
+
+p {
+  color: #74CEB7;
+  font-size: 150%;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+
+/* primary nav */
+
+header {
+  background: #70DBDB;
+  border-bottom: 3px solid #00C5CD;
+  height: 75px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+h2 {
+  background: url(../images/angry-cat.jpg) no-repeat;
+  background-size: cover;
+  border: 3px solid #00C5CD;
+  border-radius: 50%;
+  float: left;
+  height: 50px;
+  margin-top: 12px;
+  text-indent: -99999px;
+  width: 50px;
+}
+
+.main-nav {
+  float: right;
+  padding-top: 15px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 15px 10px 0;
+}
+
+.main-nav a {
+  color: white;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  border-bottom: 4px solid #00E5EE;
+}
+
+/* body content */
+
+.container {
+  width: 90%;
+  margin: 0;
+  padding-bottom: 150px;
+}
+
+
+.container,
+.main-content,
+.secondary-content {
+  height: 500px;
+}
+
+.main-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+}
+
+.hero-img {
+    border-radius: 10px;
+    width: 25%;
+}
+
+.secondary-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+/* main content */
+
+.main-content p {
+  display: inline-block;
+  width: 70%;
+}
+
+
+/* secondary content */
+
+.secondary-content {
+  border-left: 2px solid #FFDCEB;
+  text-align: center;
+  width: 24%;
+}
+
+.secondary-content li,
+.secondary-content p {
+  font-size: 140%;
+  line-height: 160%;
+}
+
+.secondary-content ul {
+  border-top: 2px solid #7EBF9C;
+  border-bottom: 2px solid #7EBF9C;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.secondary-content li{
+  color: #8DD6AF;
+}
+
+.secondary-content h3,
+.secondary-content p  {
+  color: #7EBF9C;
+  font-weight: 800;
+}
+
+.aside-img {
+  border: 5px solid #8DD6AF;
+  border-radius: 50%;
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+/* footer */
+
+footer {
+  clear: both;
+  background: #1E90FF;
+  height: 150px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  max-width: 697px;
+  margin: auto;
+}
+
+footer img {
+  width: 10%;
+  margin: 10px;
+}
+
+footer p {
+  color:white;
+}
+
+#first-box {
+  left: 5%;
+
+}
+
+#second-box {
+  left: 38%;
+}
+
+#third-box {
+  left: 70%;
+
+}
+.three-column {
+  background: #42C0FB;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  height: 80%;
+  top: 5%;
+}
+
+li.three-column {
+  padding: 5px;
+  text-align: center;
+}
+
+input {
+  border-radius: 10px;
+  border: 3px solid #8DD6AF;;
+  height: 15px;
+  margin-bottom: 5px;
+  width: 50%;
+}
+
+.btn {
+  width: 50%;
+  padding: 3px;
+  color: white;
+  background: #3299CC;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .main-content {
+    width: 90%;
+    height: auto;
+    position: relative;
+  }
+  .secondary-content {
+    width: 100%;
+    float: none;
+  
+  }
+
+  .hero-img {
+  float: none;
+  bottom: 0px;
+  width: 150px;
+  }
+}

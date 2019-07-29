@@ -1,0 +1,41 @@
+
+.navBar {
+  height: 200px;
+  background-color: #333;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checklist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  width: 50%;
+  padding: 30px;
+  margin: auto;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 20px 0;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  font-family: barlow;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type=checkbox]:focus {
+  outline: 0;
+}

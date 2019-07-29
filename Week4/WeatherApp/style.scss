@@ -1,0 +1,57 @@
+$heading-color: #009999;
+$body-color: #666666;
+$title-font: Barlow,sans-serif;
+$body-font: Antic;
+$border-color: #527a7a;
+
+.outer {
+    background-image: url("./cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.inner {
+    border: 2px solid $border-color;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: auto;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+}
+
+h1 {
+    color: $heading-color;
+    font-family: $title-font;
+}
+
+h2 {
+    color: $body-color;
+    font-family: $title-font;
+}
+
+.Temp {
+    color: $body-color;
+    font-family: $title-font;
+}
+
+#submit {
+    color: $body-color;
+    font-family: $title-font;
+}
+
+#responseField {
+    color: $body-color;
+    font-family: $title-font;
+    font-size: 20px;
+}
+
+#temp {
+    color: $body-color;
+    font-family: $title-font;
+    font-size: 20px;
+}

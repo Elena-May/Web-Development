@@ -1,0 +1,77 @@
+
+    body, html {
+        font-family: sans-serif;
+    }
+
+    @media screen and (min-width: 900px) {
+        body {
+            background: yellow;
+        }
+    }
+
+  header {
+    background: grey;
+    height: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  nav {
+    padding-top: 15px;
+  }
+  
+  nav:hover {
+    color: white;
+  }
+  
+  @media screen and (min-widt: 900px) {
+      .container {
+          margin: 0 auto;
+          width: 90%;
+      }
+    }
+   
+  .container {
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  .main-content {
+    background-color: aquamarine;
+    float: left;
+    height: 400px;
+    width: 75%;
+  }
+  
+  .secondary-content {
+    background-color: cadetblue;
+    float: right;
+    height: 400px;
+    width: 25%;
+  }
+  
+  footer {
+    background: grey;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .container {
+      height: 100%;
+    }
+  
+    .main-content {
+      float: none;
+      height: 400px;
+      width: 100%;
+    }
+  
+    .secondary-content {
+      float: none;
+      height: 200px;
+      width: 100%;
+    }
+  }
+  

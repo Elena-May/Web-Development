@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Checker</title>
+        <link rel='stylesheet' type="text/css" href="./main.css">
+    </head> 
+    <main>
+    <body class="outer">
+    <div class="inner">
+        <h1> Weather Checker</h1>
+        <h2>Enter a Location</h2>
+        
+        <form id="form" sutocomplete="off"></for>
+        <input type="text" id="input" value="">
+        
+        <h2> Select a Scale </h2>
+        
+        <div class="Temp">  
+            <input type="radio" name="temperature" value="Celsius" id="Cel">
+            Celsius<br>
+            <input type="radio" name="temperature" value="Farenheit" id="Far">
+            Farenheit<br>
+        </div>
+        
+        <button id="submit">submit</button>
+        </form>
+
+        
+        <div>
+            <h2> Results </h2>
+            <p id="responseField"> </p>
+            <p id="temp"> </p>
+        </div>
+        <script src="main.js"></script>
+    </div>
+    </body>
+</main>
+</html>

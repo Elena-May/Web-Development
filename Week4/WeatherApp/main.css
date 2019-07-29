@@ -1,0 +1,43 @@
+.outer {
+  background-image: url("./cloud.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh; }
+
+.inner {
+  border: 2px solid #527a7a;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px; }
+
+h1 {
+  color: #009999;
+  font-family: Barlow, sans-serif; }
+
+h2 {
+  color: #666666;
+  font-family: Barlow, sans-serif; }
+
+.Temp {
+  color: #666666;
+  font-family: Barlow, sans-serif; }
+
+#submit {
+  color: #666666;
+  font-family: Barlow, sans-serif; }
+
+#responseField {
+  color: #666666;
+  font-family: Barlow, sans-serif;
+  font-size: 20px; }
+
+#temp {
+  color: #666666;
+  font-family: Barlow, sans-serif;
+  font-size: 20px; }
